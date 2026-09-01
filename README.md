@@ -26,7 +26,7 @@ the network.
 
 | Trail List | Empty State |
 | :---: | :---: |
-| <img width="494" height="941" alt="home_menu" src="https://github.com/user-attachments/assets/f67c66aa-db94-4679-a8df-e3a45bed690a" /> | <img width="494" height="937" alt="post_feed" src="https://github.com/user-attachments/assets/470b1dac-5f04-4924-8785-9fb91caf13b7" /> |
+| <img width="493" height="940" alt="trail_list_screen" src="https://github.com/user-attachments/assets/c648d7a8-baf4-44bd-aa97-57fadaaf495b" /> | <img width="496" height="940" alt="empty_state" src="https://github.com/user-attachments/assets/4bb2a56c-98ef-4fd7-9023-e264f35aa5ff" /> |
 ---
 
 ## Setup
@@ -72,20 +72,6 @@ assets/images/
 Every `// TODO (CPx)` comment sits exactly where the corresponding code
 goes, with the exact steps written above it. Work in order — CP4 assumes
 CP3 is done, and the Quick Challenge assumes CP2 is done.
-
-## Theming
-
-`lib/theme/app_theme.dart` sets up the whole app's look using
-**National Park**, a bold, rounded Google Font styled after U.S.
-National Park signage, applied via the `google_fonts` package. Colors
-live in `lib/theme/app_colors.dart` and match the pastel yellow/mint/
-pink palette from the lecture slides. No TODOs here — nothing to do,
-just something nice to look at while you code.
-
-> `google_fonts` downloads the font over the network the first time
-> the app runs, then caches it on-device. If you're testing completely
-> offline from a fresh install, the app briefly falls back to the
-> system font.
 
 ---
 
