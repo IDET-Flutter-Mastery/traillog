@@ -1,0 +1,35 @@
+name: trail_log_starter
+description: "Live-coding starter — TrailLog, an offline hiking trail tracker (Hive, SharedPreferences, offline-first sync)."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Section 2 — CP1: key-value settings
+  shared_preferences: ^2.2.2
+
+  # Section 4 — CP2, CP3, CP4: caching structured objects on disk
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Section 8 — CP4: detecting whether we're online before syncing
+  connectivity_plus: ^6.0.3
+
+  # Theming — the "National Park" Google Font used throughout the app
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
